@@ -6,9 +6,9 @@
 
 ## 示例特性
 1. 演示了 [TinyRPC][3] 的使用方法
-1. 演示了 UnityWebRequest [IMultipartFormSection][2] 实现了多文件上传
+1. 演示了 UnityWebRequest 基于 [IMultipartFormSection][2] 实现多文件上传
 1. 演示了 HttpListener 基于 Post 请求简单的授权校验及文件上传
-1. 使用了 [Http-Multipart-Data-Parser][1] 实现了较大文件的上传
+1. 演示了 基于 [Http-Multipart-Data-Parser][1] 实现的较大文件的上传
 1. 支持实时进度显示
 
 ## 示例流程
