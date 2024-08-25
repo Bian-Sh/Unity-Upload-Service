@@ -1,0 +1,23 @@
+﻿#请在下面撰写网络协议： 
+
+// 向服务器请求上传文件
+// ResponseType FileUploadResponse
+message FileUploadRequest // Request
+{
+	// 文件或者文件夹名
+	string name ;
+	// 资产类型
+	int32 type;
+}
+
+// 服务器返回上传文件的 url + token
+message FileUploadResponse // Response
+{
+	// 上传文件的 url
+	string url;
+	// 上传文件的 token
+	string token;
+	// 空消息代表成功
+	string message;
+}
+
